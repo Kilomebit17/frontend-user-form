@@ -1,0 +1,42 @@
+main {
+  padding: 20px 0;
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .frontend {
+      form {
+        height: 460px;
+        width: auto;
+        overflow-y: scroll;
+        overflow-x: hidden;
+      }
+      form::-webkit-scrollbar {
+        width: 1em;
+      }
+      form::-webkit-scrollbar-track {
+        box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+        border-radius: 10px;
+      }
+      form::-webkit-scrollbar-thumb {
+        background: linear-gradient(180deg, #74EBD5 0%, #9FACE6 100%);
+        border-radius: 10px;
+        outline: none;
+      }
+
+    }
+
+    h1 {
+      font-size: 2rem;
+      color: #fff;
+    }
+
+    .card {
+      padding: 25px;
+    }
+
+    mat-form-field {
+      display: block;
+    }
+  }
+}
